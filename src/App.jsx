@@ -1,14 +1,15 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import HomePage from "./Pages/HomePage"
-import Culture from "./Pages/Culture"
-import Politics from "./Pages/Politics"
-import Memes from "./Pages/Memes"
-import Sports from "./Pages/Sports"
-import Review from "./Pages/Review"
+import HomePage from "./Navigating-Pages/HomePage"
+import Culture from "./Navigating-Pages/Culture"
+import Politics from "./Navigating-Pages/Politics"
+import Memes from "./Navigating-Pages/Memes"
+import Sports from "./Navigating-Pages/Sports"
+import Review from "./Navigating-Pages/Review"
 
 
 function App() {
   return (
+    <Fragment>
    <BrowserRouter>
    <Routes>
     <Route path='/' element={<HomePage/>}/>
@@ -21,6 +22,7 @@ function App() {
     
    </Routes>
    </BrowserRouter>
+   </Fragment>
   )
 }
 
