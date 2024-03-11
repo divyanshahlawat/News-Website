@@ -1,4 +1,4 @@
-import NavBar from "../Components/NavBar"
+import NavBar from "./NavBar"
 import Logo1 from "../assets/logo.png"
 import Logo2 from "../assets/logo2.png"
 
